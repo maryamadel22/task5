@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+
+   
+}
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    font-family:sans-serif;
+    
+}
+.Cards .scrol{
+display: flex;
+justify-content:space-between;
+align-items: center;
+
+}
+.Cards .scrol .rec1{
+width: 196px;
+height: 6px;
+background-color: rgba(60, 151, 175, 1);
+margin-top: 28px;
+margin-left: 18px;
+border-radius: 6px;
+}
+.Cards .scrol .rec2{
+    width: 196px;
+    height: 6px;
+    background-color: rgba(60, 151, 175, 1);
+    margin-top: 28px;
+    margin-left: 18px;
+    border-radius: 6px;
+    }
+.Cards .scrol .rec{
+    width: 196px;
+    height: 6px;
+    background-color: rgba(235, 235, 235, 1);
+    margin-top: 28px;
+    margin-left: 18px;
+    border-radius: 6px;
+    }
+.Cards .card1{
+    border: 1px solid black;
+    width: 676px;
+    height: 960px;
+    border-radius: 20px;
+    background-color:  rgba(60, 151, 175, 1);
+    border: none;
+    text-align: center;
+
+}
+.Cards .card1 h1{
+    margin-top: 138px;
+    font-size: 40px;
+    color: white;
+    padding-left: 60px ;
+   padding-right: 60px;
+
+}
+.Cards .card1 p{
+    font-size: 20px;
+    margin-top: 48px;
+    color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    padding-left: 18px ;
+    padding-right: 18px;
+
+}
+
+.Cards .card2{
+    margin-top: 80px;
+    margin-left: 40px;
+    text-align: center;
+   
+}
+.Cards .card2 h1{
+font-size: 40px;
+margin-top: 32px;
+
+}
+.Cards .card2 p{
+    font-size: 18px;
+    color: rgba(153, 153, 153, 1);
+    margin-top: 8px;
+  
+}
+
+.Cards .card2 .inputNo{
+margin-top: 20px;
+align-items: end;
+text-align: start;  
+}
+.Cards .card2 .inputNo h1{
+font-size: 14px;
+color: rgba(10, 10, 10, 1);
+}
+.Cards .card2 .inputNo input{
+    width: 521px;
+    height: 48px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    border-radius: 8px;
+    padding: 0px 10px;
+    color:black;
+    margin-top: 8px;
+    margin-left: 8px;
+   
+}
+input[type="number" ]::-webkit-inner-spin-button{
+display: none;
+}
+
+.Cards .card2 .inputNo button{
+    width: 90px;
+    height: 48px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+   
+}
+.Cards .card2 .inputNo img {
+    width:23px ;
+    height:16px ;
+    vertical-align:text-bottom;
+    gap: 10px;
+}
+.btn button{
+    width: 620px;
+    height: 50px;
+    border-radius:16px;
+    padding: 16px 24px 18px 24px ;
+    background-color: rgba(235, 235, 235, 1);
+    border: none;
+    text-align: center;
+    color: rgba(153, 153, 153, 1);
+    margin-top: 340px;
+    
+}

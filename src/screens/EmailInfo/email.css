@@ -1,0 +1,18 @@
+.inputs{
+display: grid;
+gap: 10px;
+margin-top: 40px;
+}
+.inputs input{
+    width: 620px;
+    height: 48px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    border-radius: 8px;
+    padding:0 8px;
+    font-size: 14px;
+    color: rgba(9, 7, 18, 1);
+}
+.inputs h4{
+    text-align: left;
+}
+

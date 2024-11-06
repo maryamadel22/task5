@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+
+   
+}
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    font-family:sans-serif;
+    
+}
+.Cards .scrol{
+display: flex;
+justify-content:space-between;
+align-items: center;
+
+}
+.Cards .scrol .rec1{
+width: 196px;
+height: 6px;
+background-color: rgba(60, 151, 175, 1);
+margin-top: 28px;
+margin-left: 18px;
+border-radius: 6px;
+}
+.Cards .scrol .rec{
+    width: 196px;
+    height: 6px;
+    background-color: rgba(235, 235, 235, 1);
+    margin-top: 28px;
+    margin-left: 18px;
+    border-radius: 6px;
+    }
+.Cards .card1{
+    border: 1px solid black;
+    width: 676px;
+    height: 960px;
+    border-radius: 20px;
+    background-color:  rgba(60, 151, 175, 1);
+    border: none;
+    text-align: center;
+
+}
+.Cards .card1 h1{
+    margin-top: 138px;
+    font-size: 40px;
+    color: white;
+    padding-left: 60px ;
+   padding-right: 60px;
+
+}
+.Cards .card1 p{
+    font-size: 20px;
+    margin-top: 48px;
+    color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    padding-left: 18px ;
+    padding-right: 18px;
+
+}
+
+.Cards .card2{
+    margin-top: 80px;
+    margin-left: 40px;
+    text-align: center;
+   
+}
+.Cards .card2 h1{
+font-size: 40px;
+margin-top: 32px;
+
+}
+.Cards .card2 p{
+    font-size: 18px;
+    color: rgba(153, 153, 153, 1);
+    margin-top: 8px;
+}
+.Accounts{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Account.active {
+    background-color: rgba(236, 246, 249, 1); 
+ 
+  }
+  .Account.active img {
+   color: rgba(60, 151, 175, 1);
+ 
+  }
+.Accounts .Account{
+    border: 1px solid rgba(235, 235, 235, 1);
+    margin-left: 16px;
+    width: 302px;
+    height: 165px;
+    border-radius: 16px;
+}
+.Accounts .Account img{
+width: 32px;
+height: 32px;
+margin-top: 14px;
+}
+.Accounts .Account p{
+    margin-top: 4px;
+    font-size: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+   
+}
+
+.btn button{
+    width: 620px;
+    height: 50px;
+    border-radius:16px;
+    padding: 16px 24px 18px 24px ;
+    background-color: rgba(235, 235, 235, 1);
+    border: none;
+    text-align: center;
+    color: rgba(153, 153, 153, 1);
+    margin-top: 340px;
+  
+    
+}
+
+.btn img{
+    height: 24px;
+    width: 34px;
+    vertical-align:-7px; 
+    display: inline-block;
+}
+.btn .active {
+    background-color: rgba(60, 151, 175, 1);
+    color: rgba(255, 255, 255, 1);
+    
+}
+
