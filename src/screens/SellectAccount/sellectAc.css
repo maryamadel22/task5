@@ -136,4 +136,77 @@ margin-top: 14px;
     color: rgba(255, 255, 255, 1);
     
 }
+@media screen and (max-width: 932px) {
+   
+    .Cards{
+        display: block;
+        font-family:sans-serif;
+       
+        
+    }
+   
+    .Cards .scrol .rec{
+        width: 96px;
+        height: 6px;
+       
+        border-radius: 6px;
+        }
+        .Cards .scrol .rec1{
+            width: 96px;
+            height: 6px;
+            border-radius: 6px;
+            }
+            .Accounts{
+                display: grid;
+                gap: 10px;
+                align-items: center;
+                
+            }
+            .Cards .card1{
+                display: none;
+                margin-top: 0px;
+            
+            }
+            .Cards .card2 h1{
+                font-size: 20px;
+                color: black;
+               
+            }
+            .Accounts .Account{
+                
+                width: 345px;
+                height: 90px;
+                border-radius: 16px;
+               
+            }
+            .btn button{
+                width: 345px;
+                height: 50px;
+                border-radius:16px;
+                padding: 16px 24px 18px 24px ;
+                background-color: rgba(235, 235, 235, 1);
+                border: none;
+                text-align: center;
+                color: rgba(153, 153, 153, 1);
+                margin-top: 140px;
+              
+            }
+            .Accounts .Account img{
+                margin-top: 4px;
+                font-size: 10px;
+                padding-left: 22px;
+                padding-right: 22px;
+                display: flex;
+               
+            }
+            .Accounts .Account p{
+                margin-top: 4px;
+                font-size: 12px;
+                padding-left: 22px;
+                padding-right: 22px;
+                display: flex;
+               
+            }
+           
 
+}

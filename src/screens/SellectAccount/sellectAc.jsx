@@ -47,7 +47,9 @@ const SellectAcScreen= () => {
     
          <div className="btn">
        
-         <button className={bordrClass} onClick={btnpath}>Next 
+         <button className={bordrClass} onClick={btnpath}
+          disabled={!isActive} 
+         >Next 
          <img className="image" src={"/image1.png"}/>
          </button > 
          </div>
