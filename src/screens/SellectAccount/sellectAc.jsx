@@ -4,7 +4,7 @@ import './sellectAc.css';
 import React, { useState } from "react";
 import useAuthStore from "../../store";
 
-const SellectAcScreen = () => {
+const SellectAcScreen = ({ onNext }) => {
   const [isActive, setIsActive] = useState('');
   const setUserType = useAuthStore((state) => state.setUserType); 
 
@@ -49,11 +49,11 @@ const SellectAcScreen = () => {
 
           <div className="btn">
             <button
-              onClick={() => alert(`Selected Account: ${isActive}`)}
+              onClick={onNext}
               disabled={!isActive}
             >
               Next
-              <img className="image" src={"/image1.png"} alt="Next Icon" />
+              <img className="image" src={"/image1.png"}  />
             </button>
           </div>
         </div>
