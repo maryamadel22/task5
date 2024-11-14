@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background-color: rgba(247, 253, 253, 1);
+}
+   .cards{
+    display: flex;
+
+}
+
+.card .profile {
+margin-top: 10px;
+border: 1px solid gray ;
+width: 320px;
+height: 219px;
+background-color:rgba(255, 255, 255, 1) ;
+border-radius: 12px;
+padding: 10px;
+text-align: center;
+border: none;
+box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+}
+.card .profile img{
+ width: 100px; 
+ height: 100px; 
+
+}
+.card .profile .rate img{
+    width: 33px;
+    height: 15px;
+
+}
+.card .profile button{
+    width: 300px;
+    height: 40px;
+    border-radius: 16px;
+    background-color: rgba(60, 151, 175, 1);
+    border: none;
+    margin-top: 33px;
+    color: rgba(255, 255, 255, 1);;
+}
+.card .about{
+    width: 320px;
+    height: 147px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: start;
+    padding: 12px 16px 12px 16px;
+    margin-top: 12px;
+    box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+}
+.card .about h1{
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+.card .about p{
+    font-size: 14px;
+    color: rgba(153, 153, 153, 1);
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 16px;
+  
+}
+.card .project{
+  width: 320px; 
+  height: 340px; 
+  border-radius: 12px;
+  background-color:rgba(255, 255, 255, 1) ;
+  padding: 12px 16px 12px 16px;
+  margin-top: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+}
+.card .project h1{
+font-size:18px ;
+
+}
+.card .project .PN{
+    padding:12px  16px 12px 16px;
+    background-color:  rgba(255, 255, 255, 1);
+}
+.card .project .PN h2{
+    font-size: 16px;
+}
+.card .project .PN .date {
+    font-size: 12px;
+    color: rgba(153, 153, 153, 1);
+    margin-top: 4px;
+}
+.card .project .PN p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.card2{
+    margin-left: 10px;
+}
+
+.card2 .IP {
+    background-color:  rgba(255, 255, 255, 1);
+    border: 1px solid black;
+    width: 616px;
+    height: 95px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px 10px 16px;
+   
+}
+.card2 .IP input{
+    width: 513px;
+    height: 42px;
+    border-radius: 16px;
+    padding: 10px 24px 10px 24px;
+    position: relative;
+    background-color: rgba(235, 235, 235, 1);
+    border: 1px solid rgba(235, 235, 235, 1);
+}
+.card2 .IP .person{
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+}
+.card2 .IP .plus{
+    width: 32px;
+    height: 32px; 
+    position: absolute;
+    margin-left:570px ;
+}
+.card2 .body{
+width: 616px;
+height: 441px;
+background-color: rgba(255, 255, 255, 1); 
+border: 1px solid black;
+border-radius: 12px;
+border: none;
+margin-top: 10px;
+padding: 24px 16px 24px 16px;
+}
+.card2 .CN{
+display: flex;
+justify-content: space-between;
+
+}
+.card2 .info  {
+   display: flex; 
+}
+.card2 .name h1{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.card2 .CN .name p{
+    font-size: 10px;
+    color: rgba(128, 128, 128, 1);
+    margin-top: 10px;
+}
+.card2 .CN .info .imag{
+    width: 50px;
+    height: 50px;
+    border-radius: 1000px;
+    background-color:rgba(235, 235, 235, 1);
+    margin-right: 18px;
+  
+
+}
+.card2 .av{
+display: flex;
+}
+.card2 .CN button{
+    margin-top: 20px;
+    width: 92px;
+    height: 35px;
+    border-radius: 16px;
+    background-color: rgba(221, 248, 231, 1);
+    color: rgba(77, 178, 81, 1);
+    font-size: 12px;
+    border: none;
+
+}
+.card2 .sets{
+    margin-top: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card2 .set{
+    background-color: rgba(191, 191, 191, 1);
+    width: 5px;
+    height: 5px;
+    border-radius: 30px;
+    margin-top:1px ;
+}
+.card2 .Full-Sack{
+font-size: 16px;
+margin-top: 20px;
+padding-right: 90px;
+margin-right: 90px;
+}
+.card2 .Full-Sack h1{
+    font-size: 14px;
+    margin-top: 10px;
+    }
+.card2 .Full-Sack p{
+    font-size: 14px;
+    color: rgba(153, 153, 153, 1);
+    margin-top: 10px;
+}
+.card2 .Full-Sack .active{
+    color: blue;
+}
+.card2 .Full-Sack img{
+width: 584px;
+height: 176px;
+margin-top: 10px;
+}
+.card2 .Full-Sack .midea{
+    display: flex;
+    
+
+}
+.card2 .Full-Sack .midea img{
+    width: 24px;
+    height: 24px;
+    
+}
+.card2 .Full-Sack .midea p{
+   margin-top: 14px;
+    margin-left: 5px;
+}
+.card2 .Full-Sack .midea .commint{
+    margin-left: 40px;
+}
+.card3 .RP{
+width: 424px;
+height: 497px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 12px;
+padding: 24px;
+gap: 32px;
+margin-left: 10px;
+margin-top: 10px;
+box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+}
+.card3 .RP .p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.card3 .RP h1{
+font-size: 20px;
+}
+.card3 .RP .AllP{
+   color: rgba(60, 151, 175, 1);
+   font-size: 14px;
+    }
+    .card3 .web{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        justify-content: space-between;
+        
+    }
+.card3 .web img{
+    width: 50px;
+    height: 50px;
+}
+.card3 .detals{
+    margin-right: 120PX;
+}
+.card3 .detals p{
+   color: black;
+   margin-top: 8px; 
+}
+.card3 .sub-titel{
+    color: rgba(153, 153, 153, 1);
+    margin-top: 9px;
+}
+.card3 .FL{
+    width: 424px;
+    height: 417px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+    padding: 24px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card3 .FL .Titel{
+    display: flex;
+    justify-content: space-between;
+}
+.card3 .FL h1{
+    font-size: 18px;
+}
+.card3 .FL .SL{
+    font-size: 14px;
+    color: rgba(60, 151, 175, 1);
+}
+.card3 .acc{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+.card3 .acc .NS{
+    margin-left: 10px;
+}
+.card3 .acc img{
+    width: 50px;
+    height: 50px;
+  
+   
+    
+}
+.card3 .acc .sub{
+font-size: 12px;
+color: rgba(153, 153, 153, 1);
+}
+.web .time {
+    color:rgba(153, 153, 153, 1) ;
+    font-size: 14px;
+}

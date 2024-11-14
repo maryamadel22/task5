@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.webpage{
+      position: absolute;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 300px;
+        
+    
+    
+}
